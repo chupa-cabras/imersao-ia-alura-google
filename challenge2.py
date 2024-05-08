@@ -13,7 +13,7 @@ genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
 # Set up the model
 generation_config = {
-  "temperature": 1,
+  "temperature": 0,
   "top_p": 0.95,
   "top_k": 0,
   "max_output_tokens": 8192,
